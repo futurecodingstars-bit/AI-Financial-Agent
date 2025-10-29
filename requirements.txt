@@ -1,0 +1,18 @@
+# requirements.txt
+#
+# List of dependencies for the AI Financial Agent (ML & LLM Enhanced)
+# Use 'pip install -r requirements.txt' to install all packages.
+
+# --- Core Data and Financial Libraries ---
+pandas==2.2.2
+numpy==1.26.4
+yfinance==0.2.38
+
+# --- Machine Learning (DECIDE Phase) ---
+scikit-learn==1.4.2
+joblib==1.4.2  # For saving and loading the trained ML model
+
+# --- LLM / NLP (PERCEIVE Phase) ---
+# Note: transformers often installs PyTorch/TensorFlow. 
+# We'll stick to a common CPU-friendly version to keep the environment light.
+transformers==4.41.2
